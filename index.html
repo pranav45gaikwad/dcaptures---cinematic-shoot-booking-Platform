@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D_Capture — Cinematic Event Reels</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo-placeholder">
+    <img src="/Images/Dcap_logo.png" alt="D_Captures logo" class="logo-img">
+  </div>
+  <div class="logo-placeholder">
+    <img src="/Images/title_card_logo.png" alt="D_Captures logo" class="logo-img">
+  </div>
+  <nav>
+    <button class="nav-toggle" aria-label="Toggle menu" id="navToggle">
+      <span></span><span></span><span></span>
+    </button>
+    <ul id="navList">
+      <button class="nav-close" aria-label="Close menu" id="navClose">&times;</button>
+      <li><a href="#work">Our Premium Work</a></li>
+      <li><a href="#contact">Connect with us</a></li>
+      <li>
+        <a href="https://www.instagram.com/d_capture.9767?igsh=bHF1cHp5MDBvMDEy&utm_source=qr" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          Instagram
+        </a>
+      </li>
+    </ul>
+    <div class="nav-backdrop" id="navBackdrop"></div>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="particles" id="particles" aria-hidden="true"></div>
+  <img src="/Images/Dcap_logo.png" alt="" class="hero-watermark" aria-hidden="true">
+  <div class="hero-grid">
+    <div>
+      <div class="eyebrow"><span class="line"></span> Est. — Cinematic Event Reels</div>
+      <h1 class="headline">
+        <span class="reveal-line"><span>Cinematic</span></span>
+        <span class="reveal-line"><span>Stories, <em>crafted</em></span></span>
+        <span class="reveal-line"><span>frame by <em>frame.</em></span></span>
+      </h1>
+      <p class="hero-copy">
+        Every frame tells a Story , event moment becomes a memory , We don't just record videos , we capture emotions and memories that last a lifetime.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">
+          Enquire Now
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#work" class="btn btn-secondary">
+          See My Work
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        </a>
+      </div>
+      <a href="https://www.instagram.com/d_capture.9767?igsh=bHF1cHp5MDBvMDEy&utm_source=qr" target="_blank" rel="noopener" class="hero-insta">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+        @d_capture.9767
+      </a>
+    </div>
+
+    <div class="portrait-wrap">
+      <div class="portrait-glow" aria-hidden="true"></div>
+      <div class="portrait-frame">
+        <img src="/Images/portrait.png" alt="Portrait of the editor" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="img-fallback" style="display:flex;"></div>
+        <div class="portrait-tag">
+          <div>
+            <div class="pt-eyebrow">Behind the Edit</div>
+            <div class="pt-main">D_Captures</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue"><span>Scroll</span><span class="stick"></span></div>
+</section>
+
+<!-- ================= WORK ================= -->
+<section id="work">
+  <div class="section-inner">
+    <div class="section-head fade-up">
+      <div class="section-eyebrow"><span class="line"></span> Premium Reels Collection</div>
+      <h2 class="section-title">Reels that <em>move</em><br>the room.</h2>
+      <p class="section-sub">A curated set of cinematic edits across weddings, live concerts and brand campaigns — every cut timed to feeling.</p>
+    </div>
+
+    <div class="grid">
+      <!-- Card 1 -->
+      <div class="card fade-up" data-tilt>
+        <video autoplay loop muted playsinline poster="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <source src="/Assets/reel1.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          reel-01.mp4
+        </div>
+        <a href="https://www.instagram.com/reel/DZaN0zRsIqp/?igsh=MW53aWp6bnEwZWgxdg==" target="_blank" rel="noopener" class="card-arrow" aria-label="View on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+        <div class="card-overlay">
+          <div class="card-tag">Ring Ceremony</div>
+          <div class="card-title">Couple Shoot</div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card fade-up" data-tilt>
+        <video autoplay loop muted playsinline poster="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <source src="/Assets/reel2.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          reel-02.mp4
+        </div>
+        <a href="https://www.instagram.com/reel/DYq0mLzMixI/?igsh=YWlueXY2c3B3a216" target="_blank" rel="noopener" class="card-arrow" aria-label="View on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+        <div class="card-overlay">
+          <div class="card-tag">Grand Opening</div>
+          <div class="card-title">Pj Restaurant, Kolhapur</div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card fade-up" data-tilt>
+        <video autoplay loop muted playsinline poster="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <source src="/Assets/reel3.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          reel-03.mp4
+        </div>
+        <a href="https://www.instagram.com/d_capture.9767?igsh=bHF1cHp5MDBvMDEy&utm_source=qr" target="_blank" rel="noopener" class="card-arrow" aria-label="View on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+        <div class="card-overlay">
+          <div class="card-tag">Brand Collaboration</div>
+          <div class="card-title">Vivo Official Store</div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card fade-up" data-tilt>
+        <video autoplay loop muted playsinline poster="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <source src="/Assets/reel4.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          reel-04.mp4
+        </div>
+        <a href="https://www.instagram.com/reel/DWdkue_DIcm/?igsh=eHZzMDdwYWg1ano1" target="_blank" rel="noopener" class="card-arrow" aria-label="View on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+        <div class="card-overlay">
+          <div class="card-tag">Grand Car Delivery</div>
+          <div class="card-title">Hyundai's Showroom</div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card fade-up" data-tilt>
+        <video autoplay loop muted playsinline poster="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <source src="/Assets/reel5.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          reel-05.mp4
+        </div>
+        <a href="https://www.instagram.com/d_capture.9767?igsh=bHF1cHp5MDBvMDEy&utm_source=qr" target="_blank" rel="noopener" class="card-arrow" aria-label="View on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+        <div class="card-overlay">
+          <div class="card-tag">Wedding Film</div>
+          <div class="card-title">Lifelong Vows</div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card fade-up" data-tilt>
+        <video autoplay loop muted playsinline poster="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <source src="/Assets/reel6.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          reel-06.mp4
+        </div>
+        <a href="https://www.instagram.com/reel/DYcQciKMC_z/?igsh=NHMwd250Z2c4dWdx" target="_blank" rel="noopener" class="card-arrow" aria-label="View on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+        <div class="card-overlay">
+          <div class="card-tag">The Village Story</div>
+          <div class="card-title">Aapla Walwa</div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="card fade-up" data-tilt>
+        <video autoplay loop muted playsinline poster="" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <source src="/Assets/reel7.mp4" type="video/mp4">
+        </video>
+        <div class="video-fallback" style="display:none;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          reel-07.mp4
+        </div>
+        <a href="https://www.instagram.com/reel/DY2h3yLSdnW/?igsh=MWJscXdoMTc4cmQ5aA%3D%3D" target="_blank" rel="noopener" class="card-arrow" aria-label="View on Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+        <div class="card-overlay">
+          <div class="card-tag">Bikers Heaven</div>
+          <div class="card-title">Continental GT 650</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta" id="contact">
+  <div class="cta-inner">
+    <div class="section-eyebrow fade-up"><span class="line"></span> Let's Create</div>
+    <h2 class="section-title fade-up">Got a story worth<br><em>telling</em>?</h2>
+    <div class="cta-handle fade-up">@d_capture.9767</div>
+    <a href="https://www.instagram.com/d_capture.9767?igsh=bHF1cHp5MDBvMDEy&utm_source=qr" target="_blank" rel="noopener" class="cta-link fade-up">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+      DM on Instagram for Shoot
+    </a>
+
+    <div class="cta-buttons fade-up">
+      <a href="https://forms.gle/AzTatBuAUVHS52Ju9" target="_blank" rel="noopener" class="btn btn-primary">
+        Book Your Shoot
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+      <a href="tel:+919021399767" class="btn btn-secondary">
+        Contact Us
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>D_Capture — Cinematic Event Reels</div>
+  <div>Made with &#10084;&#xFE0F; by Pran Gaikwad</div>
+  <div><a href="#work">Work</a> &nbsp;·&nbsp; <a href="#contact">Connect</a></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
